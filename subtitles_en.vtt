@@ -1,9 +1,29 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:10.606
-This is the first subtitle.
+00:00:00.000 --> 00:00:05.000
+After getting the personale template up and running
 
 2
-00:00:11.739 --> 00:00:23.074
-This is the second.
+00:00:05.001 --> 00:00:14.000
+Change the text on index html to your own information
+
+3
+00:00:14.001 --> 00:00:20.000
+Then go to style.css
+
+4
+00:00:20.001 --> 00:00:29.000
+and change the colors to whatever you like
+
+5
+00:00:29.001 --> 00:00:37.000
+This is the completed version of my template
+
+6
+00:00:29.001 --> 00:00:49.000
+It has about me, skills, education, portfolio, and contact me.
+
+7
+00:00:49.001 --> 00:00:54.000
+Look at the guide below for more details

@@ -1,16 +1,50 @@
 <!Doctype html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <style>
+        body{
+            background-color: lightblue;
+        }
+        article{
+            max-width: 900px;
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+        }
         video{
-            max-width: 100vw;
-            max-height: 100vh;
+            max-width: 100%;
+            max-height: 100%;
+            margin-bottom: 100px;
+        }
+        img{
+            max-width: 100%;
+            margin-top: 10px;
+        }
+        p{
+            margin-bottom: 100px;
         }
     </style>
 </head>
 <body>
-    <h1> Video Here! </h1>
-    <video controls="controls">
-        <source src="test2.mp4"  type="video/mp4" />
-        <track kind="subtitles" src="subtitles_en.vtt" srclang="en" />
-    </video>
+    <article>
+        <h1> How to make a profile</h1>
+        <h2> Video Guide </h2>
+        <video controls="controls">
+            <source src="short.mp4"  type="video/mp4" />
+            <track kind="subtitles" src="subtitles_en.vtt" srclang="en" />
+        </video>
+        <h2> Picture Guide <h2>
+        <img src="images/Capture1.PNG" alt="Shows the personale template to download"/>
+        <p>1. First find a template and download the zip file</p>
+        <img src="images/Capture2.PNG" alt="Shows the template zip file"/>
+        <p>2. Extract the zip file to the location you want to work on it</p>
+        <img src="images/Capture3.PNG" alt="Shows a new git hub repository"/>
+        <p>3. Create a new git hub repository and commit the files to it. Use your username followed by .github.io to display the page using github.</p>
+        <img src="images/Capture4.PNG" alt="Shows the index.html file"/>
+        <p>4. Change the text in the template to the text you want to put in your profile.</p>
+        <img src="images/Capture5.PNG" alt="Shows the style.css file"/>
+        <p>5. If you want to, change the styles to futher personalize your portfolio</p>
+        <img src="images/Capture6.PNG" alt="Shows the completed profile"/>
+        <p>6. Upload your completed profile to github or another host in order to view it</p>
+    </article>
 </body>
